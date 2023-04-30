@@ -1,0 +1,25 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+44
+'Dame un número y te doy su potencia cúbica'
+5
+1
+6
+numero
+6
+1
+8
+potencia
+24
+numero * numero * numero
+4
+1
+51
+'La potencia cúbica de ', numero, ' es: ', potencia
+1

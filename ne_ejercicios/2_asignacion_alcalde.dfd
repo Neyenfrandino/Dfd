@@ -1,0 +1,31 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+8
+Comienza
+4
+1
+102
+'Dime la poblacion de Bogota y te dare la cantidad de votos que debe recibir el candidato para ganar.'
+5
+1
+9
+poblacion
+6
+2
+5
+mitad
+11
+poblacion/2
+9
+resultado
+7
+mitad+1
+4
+1
+42
+'El candidato debe ganar con :', resultado
+1

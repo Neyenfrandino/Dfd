@@ -1,0 +1,61 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+7
+bandera
+3
+.V.
+6
+1
+8
+numerito
+1
+0
+9
+1
+13
+bandera = .V.
+6
+1
+8
+numerito
+12
+numerito + 1
+4
+1
+55
+'Número: ' , numerito,  ' Ver más números? "si" o "no"'
+5
+1
+9
+respuesta
+7
+0
+1
+16
+respuesta = 'si'
+6
+1
+7
+bandera
+3
+.F.
+13
+6
+1
+7
+bandera
+3
+.V.
+13
+11
+4
+1
+16
+'Gracias! Chau!'
+1

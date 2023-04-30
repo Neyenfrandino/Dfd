@@ -1,0 +1,64 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+6
+numero
+1
+2
+9
+1
+11
+numero >= 0
+4
+1
+70
+'Dame un numero y te dare la 4ta parte si es par o la 3ra si es impar'
+5
+1
+6
+numero
+7
+0
+1
+10
+numero >=0
+4
+1
+12
+'Chao mundo'
+13
+7
+0
+1
+16
+numero MOD 2 = 0
+6
+1
+12
+terceraparte
+8
+numero/3
+4
+1
+52
+'la tercera parte de ', numero, ' es ', terceraparte
+13
+6
+1
+11
+cuartaparte
+8
+numero/4
+4
+1
+50
+'la cuarta parte de ', numero, ' es ', cuartaparte
+13
+13
+11
+1

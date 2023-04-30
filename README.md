@@ -60,10 +60,24 @@ Si el número no es natural, termine el programa con un mensaje final "Chao mund
 
 
 
-# DFD: Ejercicios de Ne
-1. Dado la edad del usuario, indicar si es mayor o menor de edad
-2. Dada la población electoral de Bogotá (el lugar más hermoso del mundo), muestre la cantidad mínima de votos que necesita un candidato para ser elegido "Alcalde mayor de la ciudad".
+# DFD: Ne, Ejercicios de práctica 
+1. **[x]** Dado la edad del usuario, indicar si es mayor o menor de edad.
+1. **[x]** Dada la población electoral de Bogotá (el lugar más hermoso del mundo), muestre la cantidad mínima de votos que necesita un candidato para ser elegido "Alcalde mayor de la ciudad".
+1. **[X]** Dado un número, mostrar un único mensaje al usuario indicando si es par o no.
+1. [ ] De los primeros 16 números naturales, mostrar los múltiplos de 2.
+1. [ ] Pedir 2 números e imprimir cuál es el mayor y cuál es el menor.
+1. [ ] Pedir 3 números al usuario y mostrar un mensaje final con la suma y el promedio.
 
+
+# Workshop
+1. Dado un número ingresado por el usuario, imprimir si es un número primo o no.
+1. Crear un programa que calcule la suma de los primeros `{n}` números enteros.
+1. Hacer un programa para determinar si Neyén puede hacer push o no. Las reglas de este programa quedan a criterio del programador. (La idea es que sea lo más completo posible para que Lili no lo corche)
+1. Calcular el factorial de un número ingresado por el usuario y mostrarlo en pantalla.
+1. Calcular el MCD (Máximo Común Divisor) de 2 números ingresados por el usuario
+1. Calcular el MCM (Mínimo Común Múltiplo) de 2 números ingresados por el usuario
+1. Hacer un programa para indicar si Neyén y Lili pueden ir a comer. Mostrar mensajes de alerta en cada posible escenario. (Que Lili no lo corche!)
+1. Hacer la secuencia de Fibonacci
 
 # Casos especiales
 ## Módulo

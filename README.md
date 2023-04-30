@@ -64,7 +64,7 @@ Si el número no es natural, termine el programa con un mensaje final "Chao mund
 1. **[x]** Dado la edad del usuario, indicar si es mayor o menor de edad.
 1. **[x]** Dada la población electoral de Bogotá (el lugar más hermoso del mundo), muestre la cantidad mínima de votos que necesita un candidato para ser elegido "Alcalde mayor de la ciudad".
 1. **[X]** Dado un número, mostrar un único mensaje al usuario indicando si es par o no.
-1. [ ] De los primeros 16 números naturales, mostrar los múltiplos de 2.
+1. [x] De los primeros 16 números naturales, mostrar los múltiplos de 2.
 1. [ ] Pedir 2 números e imprimir cuál es el mayor y cuál es el menor.
 1. [ ] Pedir 3 números al usuario y mostrar un mensaje final con la suma y el promedio.
 

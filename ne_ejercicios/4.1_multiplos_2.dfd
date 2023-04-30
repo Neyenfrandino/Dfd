@@ -1,0 +1,40 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+56
+'Te puedo dar los multiplos de 2. Pero solo hasta el 15'
+8
+1
+6
+numero
+1
+1
+0
+1
+2
+15
+1
+1
+1
+7
+0
+1
+16
+numero MOD 2 = 0
+4
+1
+30
+numero, ' no es multiplo de 2'
+13
+4
+1
+27
+numero, ' es multiplo de 2'
+13
+10
+1

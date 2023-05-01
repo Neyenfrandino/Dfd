@@ -9,7 +9,7 @@ Antes de empezar con el mundo mágico de DFD, vamos a mirar algunas cosillas de 
 1. :movie_camera: [Video](https://www.youtube.com/watch?v=kp7AgE94aCY&ab_channel=Derivando) _¿Tienes lógica matemática?_
     + ...
 
-1. :movie_camera: [Video](https://www.youtube.com/watch?v=kp7AgE94aCY&ab_channel=Derivando) _Operadores lógicos: boolean_
+1. :movie_camera: [Video](https://www.youtube.com/watch?v=bCBhC0yJY6M&ab_channel=GCBA) _Operadores lógicos: boolean_
     + ... 
 
 1. :movie_camera: [Video](https://www.youtube.com/watch?v=G53Da_gzsx0&ab_channel=UnboxingPhilosophy) _Lógica y Tablas de Verdad_ (hasta el min 7:08)

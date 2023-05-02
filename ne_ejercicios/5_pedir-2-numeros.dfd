@@ -1,0 +1,49 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+74
+'Dame dos numeros y te dire cual es mayor, cual es menor o si son iguales'
+5
+1
+8
+numero1 
+5
+1
+7
+numero2
+7
+0
+1
+17
+numero1 = numero2
+7
+0
+1
+18
+numero1 >= numero2
+4
+1
+32
+numero1, ' es menor a ', numero2
+13
+4
+1
+32
+numero1, ' es mayor a ', numero2
+13
+13
+4
+1
+33
+numero1, ' es igual a ',  numero2
+13
+4
+1
+38
+'La persistencia hace al maestruli...'
+1

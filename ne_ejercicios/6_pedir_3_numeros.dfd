@@ -1,0 +1,45 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+72
+'Dame 3 numero y te dare el resultado de la suma de los 3 y el promedio'
+5
+1
+7
+numero1
+4
+1
+16
+'segundo numero'
+5
+1
+7
+numero2
+4
+1
+15
+'tercer numero'
+5
+1
+7
+numero3
+6
+2
+11
+numerossuma
+26
+numero1 + numero2 +numero3
+11
+numeroprome
+14
+numerossuma/2 
+4
+1
+92
+'El resultado de la suma de tus numeros es ', numerossuma, ' y el promedio es ', numeroprome
+1

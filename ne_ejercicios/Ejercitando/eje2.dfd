@@ -1,0 +1,30 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+44
+'Dame un numero y te dire si es par o impar'
+5
+1
+2
+n1
+7
+0
+1
+12
+n1 mod 2 = 0
+4
+1
+12
+n1, ' impar'
+13
+4
+1
+10
+n1, ' par'
+13
+1

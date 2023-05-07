@@ -21,3 +21,7 @@ El radio se le pedirá al usuario.
 en grados Celsius a grados Fahrenheit. Para ello, puedes utilizar la fórmula F = (C * 1.8) + 32, 
 donde F es la temperatura en grados Fahrenheit y C es la temperatura en grados Celsius.
 La temperatura a convertir será dada por el usuario.
+
+
+
+n2, ' se encuentra en la posicion ', contador, ' de tu lista del 1 al ', n1

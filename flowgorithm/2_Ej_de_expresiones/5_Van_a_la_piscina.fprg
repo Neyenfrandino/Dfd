@@ -4,15 +4,15 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="neyen"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-05-07 10:17:44 a.&#160;m."/>
+        <attribute name="saved" value="2023-05-07 11:01:32 a.&#160;m."/>
         <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzEwOjEyOjAyIGEuwqBtLjszMDg5"/>
-        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzEwOjE3OjQ0IGEuwqBtLjsxOzMyMDg="/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzExOjAxOjMyIGEuwqBtLjsyOzMyMDA="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="PagarQuincena, haceSol" type="Boolean" array="False" size=""/>
-            <assign variable="pagarQuincena" expression="false"/>
+            <assign variable="pagarQuincena" expression="true"/>
             <assign variable="haceSol" expression="true"/>
             <if expression="pagarQuincena and haceSol = true">
                 <then>

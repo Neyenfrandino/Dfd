@@ -4,22 +4,22 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="neyen"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-05-07 12:06:35 p.&#160;m."/>
+        <attribute name="saved" value="2023-05-07 06:01:54 p.&#160;m."/>
         <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzExOjU4OjM2IGEuwqBtLjszMTA3"/>
-        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzEyOjA2OjM1IHAuwqBtLjsxOzMyMjM="/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA2OjAxOjU0IHAuwqBtLjsyOzMyMjM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="LimonadaCoco, limonadaMango" type="Boolean" array="False" size=""/>
-            <assign variable="limonadaCoco" expression="true"/>
-            <assign variable="limonadaMango" expression="true"/>
+            <assign variable="limonadaCoco" expression="false"/>
+            <assign variable="limonadaMango" expression="false"/>
             <if expression="limonadaCoco or limonadaMango = true">
                 <then>
                     <output expression="&quot;Wipiti, tomaras limonada !!! &quot;" newline="True"/>
                 </then>
                 <else>
-                    <output expression="&quot;funck, bueno otro dia tomare limonada&quot;" newline="True"/>
+                    <output expression="&quot;fuck, bueno otro dia tomaras limonada&quot;" newline="True"/>
                 </else>
             </if>
         </body>

@@ -4,22 +4,22 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="neyen"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-05-07 11:41:37 a.&#160;m."/>
+        <attribute name="saved" value="2023-05-07 05:59:01 p.&#160;m."/>
         <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzExOjMwOjQ2IGEuwqBtLjszMDk4"/>
-        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzExOjQxOjM3IGEuwqBtLjsxOzMyMDg="/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA1OjU5OjAxIHAuwqBtLjsyOzMyMjc="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="cantidadDinero, pitayaPrecio" type="Real" array="False" size=""/>
-            <assign variable="cantidadDinero" expression="6.000"/>
-            <assign variable="pitayaPrecio" expression="5.000"/>
+            <assign variable="cantidadDinero" expression="6000"/>
+            <assign variable="pitayaPrecio" expression="6001"/>
             <if expression="cantidadDinero &gt;= pitayaPrecio">
                 <then>
                     <output expression="&quot;Wipiti me voy a comer una rica pitaya&quot;" newline="True"/>
                 </then>
                 <else>
-                    <output expression="&quot;Funk,no me alcanza el dinero. Bueno otro dia me la compro&quot;" newline="True"/>
+                    <output expression="&quot;Fuck,no me alcanza el dinero. Bueno otro dia me la compro&quot;" newline="True"/>
                 </else>
             </if>
         </body>

@@ -1,0 +1,60 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+73
+'Deme un numero y definamos una lista del 1 hasta el numero que ingrese '
+5
+1
+6
+limite
+4
+1
+91
+'Deme otro numero y te dire la posicion del mismo, dentro de tu lista del 1 hasta ', limite
+5
+1
+8
+n_buscar
+6
+1
+9
+contador 
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+6
+limite
+1
+1
+2
+6
+1
+9
+contador 
+12
+contador + 1
+7
+0
+1
+12
+n_buscar = i
+13
+4
+1
+85
+n_buscar, ' se encuentra en la posicion ', contador, ' de tu lista del 1 al ', limite
+13
+10
+1

@@ -1,0 +1,27 @@
+1. ...
+2. ...
+3. ...
+4. ...
+
+5. Búsqueda en una lista: De una lista de 1 hasta un número definido por el usuario, 
+una lista que va de 2 en 2, devuelva la posición de otro número definido por el usuario. 
+Si el número no está en la lista, el algoritmo debería devolver -1.
+
+8. Cálculo del promedio de una lista de números: Escribe un algoritmo que calcule el 
+promedio de una lista de números. Para ello, puedes sumar todos los números de la lista 
+y dividir el resultado entre la cantidad de números de la lista.
+La lista será entre 1 y la cuarta parte de 100.
+
+7. Cálculo del área de un círculo: Escribe un algoritmo que calcule el área de un círculo 
+a partir de su radio. Para ello, puedes utilizar la fórmula A = pi * r^2, 
+donde A es el área del círculo, pi es una constante y r es el radio del círculo.
+El radio se le pedirá al usuario.
+
+8. Conversión de temperatura: Escribe un algoritmo que convierta una temperatura 
+en grados Celsius a grados Fahrenheit. Para ello, puedes utilizar la fórmula F = (C * 1.8) + 32, 
+donde F es la temperatura en grados Fahrenheit y C es la temperatura en grados Celsius.
+La temperatura a convertir será dada por el usuario.
+
+
+
+n2, ' se encuentra en la posicion ', contador, ' de tu lista del 1 al ', n1

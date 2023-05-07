@@ -111,3 +111,9 @@ En la operación de división, el **módulo** es el **residuo**. Sirve para eval
 1. Hacer un programa para indicar si Neyén y Lili pueden ir a comer. Mostrar mensajes de alerta en cada posible escenario. (Que Lili no lo corche!)
 1. Hacer la secuencia de Fibonacci
 1. Simular un programa de consola (#TODO: (Pendiente) definir el resto del problema)
+
+n1/ i != n1 & 1
+
+n1/ i  != n1 AND n1/ i  != 1
+
+n1 / it = 1 and  n1 / it= n1

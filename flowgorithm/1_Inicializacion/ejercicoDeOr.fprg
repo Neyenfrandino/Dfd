@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="neyen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-07 08:26:27 a.&#160;m."/>
+        <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA4OjE1OjM5IGEuwqBtLjszMTA5"/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA4OjI2OjI3IGEuwqBtLjsxOzMyMTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cocinar, pedirDomicilio" type="Boolean" array="False" size=""/>
+            <assign variable="cocinar" expression="false"/>
+            <assign variable="pedirDomicilio" expression="false"/>
+            <if expression="cocinar or pedirDomicilio = true">
+                <then>
+                    <output expression="&quot;Tenemos para cenar&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No tendremos para comer&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

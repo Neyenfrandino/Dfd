@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="neyen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-06 08:03:49 p.&#160;m."/>
+        <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA2OzA3OjIwOjQyIHAuwqBtLjszMTEy"/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA2OzA4OjAzOjQ5IHAuwqBtLjsxMzszMjgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="llaves, puerta, asiento, nafta, marcha" type="Boolean" array="False" size=""/>
+            <assign variable="llaves" expression="true"/>
+            <assign variable="puerta" expression="true"/>
+            <assign variable="asiento" expression="true"/>
+            <assign variable="nafta" expression="true"/>
+            <assign variable="marcha" expression="true"/>
+            <if expression="llaves = true">
+                <then>
+                    <output expression="&quot;Ve hasta el carro&quot;" newline="True"/>
+                    <if expression="puerta = false">
+                        <then>
+                            <output expression="&quot;Abre la puerta&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Subase al carro&quot;" newline="True"/>
+                            <if expression="asiento = true">
+                                <then>
+                                    <output expression="&quot;Dele contacto al auto&quot;" newline="True"/>
+                                    <if expression="nafta = false">
+                                        <then>
+                                            <output expression="&quot;Lo primero que tiene que hacer antes de ir a donde tenga que ir, es pasar por una autobomba y cargar nafta&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="marcha = false">
+                                                <then>
+                                                    <output expression="&quot;Prende el auto&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;Pon la marcha en neutro&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </then>
+                                <else>
+                                    <output expression="&quot;acomoda el asiento woman o man&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Pide las llaves, o ve a bucarlas, dependiendo del apuro que tengas&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="neyen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-07 10:17:44 a.&#160;m."/>
+        <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzEwOjEyOjAyIGEuwqBtLjszMDg5"/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzEwOjE3OjQ0IGEuwqBtLjsxOzMyMDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="PagarQuincena, haceSol" type="Boolean" array="False" size=""/>
+            <assign variable="pagarQuincena" expression="false"/>
+            <assign variable="haceSol" expression="true"/>
+            <if expression="pagarQuincena and haceSol = true">
+                <then>
+                    <output expression="&quot;Wipiti van a la picsina &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Bueno en otro momento podran ir a la piscina&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

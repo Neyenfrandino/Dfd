@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="neyen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-07 09:34:24 a.&#160;m."/>
+        <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA5OjI3OjEyIGEuwqBtLjszMTA0"/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA5OjM0OjI0IGEuwqBtLjsyOzMyMTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lilianaEdad, neyenEdad" type="Integer" array="False" size=""/>
+            <assign variable="lilianaEdad" expression="30"/>
+            <assign variable="neyenEdad" expression="27"/>
+            <if expression="lilianaEdad &gt; neyenEdad = true">
+                <then>
+                    <output expression="&quot;Liliana S&#205; es mayor que Ney&#233;n&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Liliana NO es mayor que Ney&#233;n&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

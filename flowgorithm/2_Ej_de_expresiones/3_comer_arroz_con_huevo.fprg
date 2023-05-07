@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="neyen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-07 09:41:24 a.&#160;m."/>
+        <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA5OjM0OjI2IGEuwqBtLjszMTA3"/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA5OjQxOjI0IGEuwqBtLjsxOzMyMTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="comerArroz, comerHuevo" type="Boolean" array="False" size=""/>
+            <assign variable="comerArroz" expression="true"/>
+            <assign variable="comerHuevo" expression="false"/>
+            <if expression="comerArroz AND comerHuevo = true">
+                <then>
+                    <output expression="&quot;Puedes comer arroz con huevo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Paila, no puedes comer arrocito con huevito&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

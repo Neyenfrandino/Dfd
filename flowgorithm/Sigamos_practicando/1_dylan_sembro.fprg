@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="neyen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-07 11:30:39 a.&#160;m."/>
+        <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzExOjA5OjAzIGEuwqBtLjszMDk3"/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzExOjMwOjM5IGEuwqBtLjsyOzMyMDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="largo, ancho, cantidadTomates" type="Integer" array="False" size=""/>
+            <assign variable="largo" expression="12"/>
+            <assign variable="ancho" expression="8"/>
+            <assign variable="CantidadTomates" expression="ancho * largo"/>
+            <output expression="&quot;La cantidad de tomates que sembro dylan es &quot; &amp; CantidadTomates" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

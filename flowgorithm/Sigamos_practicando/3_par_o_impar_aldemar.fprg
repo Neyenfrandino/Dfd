@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="neyen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-07 05:59:40 p.&#160;m."/>
+        <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzExOjQxOjM5IGEuwqBtLjszMTAy"/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA1OjU5OjQwIHAuwqBtLjsyOzMyMzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="edadAldemar" type="Integer" array="False" size=""/>
+            <assign variable="edadAldemar" expression="68"/>
+            <if expression="edadAldemar mod 2 = 0">
+                <then>
+                    <output expression="&quot;Aldemar su edad es un numero par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Aldemar su edad es un numero impar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

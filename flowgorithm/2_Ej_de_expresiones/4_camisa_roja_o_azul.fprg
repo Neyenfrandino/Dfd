@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="neyen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-07 11:00:29 a.&#160;m."/>
+        <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA5OjQ4OjMxIGEuwqBtLjszMTA4"/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzExOjAwOjI5IGEuwqBtLjsyOzMyMDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="camisaRoja, camisaAzul" type="Boolean" array="False" size=""/>
+            <assign variable="camisaRoja" expression="true"/>
+            <assign variable="camisaAzul" expression="true"/>
+            <if expression="camisaRoja or camisaAzul = true">
+                <then>
+                    <output expression="&quot;se va a poner una camisa&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Tiene que comprase camisas&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

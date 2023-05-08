@@ -4,16 +4,16 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="neyen"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-05-07 05:47:35 p.&#160;m."/>
+        <attribute name="saved" value="2023-05-08 04:04:03 p.&#160;m."/>
         <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA1OjQxOjU3IHAuwqBtLjszMTIw"/>
-        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA1OjQ3OjM1IHAuwqBtLjsyOzMyMzE="/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA4OzA0OjA0OjAzIHAuwqBtLjs0OzMyMjE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="vehiculoNuevo, vehiculoActual" type="String" array="False" size=""/>
-            <assign variable="vehiculoNuevo" expression="&quot;7 pasajeros&quot;"/>
-            <assign variable="vehiculoActual" expression="&quot;5 pasajeros&quot;"/>
+            <declare name="vehiculoNuevo, vehiculoActual" type="Integer" array="False" size=""/>
+            <assign variable="vehiculoNuevo" expression="7"/>
+            <assign variable="vehiculoActual" expression="5"/>
             <if expression="vehiculoNuevo &gt;= vehiculoActual">
                 <then>
                     <output expression="&quot;Se podra comprar el nuevo vehiculo &quot;" newline="True"/>

@@ -4,22 +4,22 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="neyen"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-05-07 04:09:16 p.&#160;m."/>
+        <attribute name="saved" value="2023-05-07 06:11:41 p.&#160;m."/>
         <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA0OjAzOjU5IHAuwqBtLjszMTE5"/>
-        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA0OjA5OjE2IHAuwqBtLjsxOzMyMjY="/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA2OjExOjQxIHAuwqBtLjszOzMyMjE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="semillasBuenas, climaLluvia" type="Boolean" array="False" size=""/>
-            <assign variable="semillasBuenas" expression="true"/>
+            <assign variable="semillasBuenas" expression="false"/>
             <assign variable="climaLluvia" expression="true"/>
             <if expression="semillasBuenas and climaLluvia = true">
                 <then>
                     <output expression="&quot;Estas con la suerte, saldra un buen coltivo&quot;" newline="True"/>
                 </then>
                 <else>
-                    <output expression="&quot;Creo que no es momento de contivar&quot;" newline="True"/>
+                    <output expression="&quot;Creo que no es momento de cultivar&quot;" newline="True"/>
                 </else>
             </if>
         </body>

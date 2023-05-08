@@ -4,18 +4,18 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="neyen"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-05-07 04:18:35 p.&#160;m."/>
+        <attribute name="saved" value="2023-05-07 06:13:26 p.&#160;m."/>
         <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA0OjA5OjIxIHAuwqBtLjszMTE0"/>
-        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA0OjE4OjM1IHAuwqBtLjsxOzMyMjc="/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA2OjEzOjI2IHAuwqBtLjsyOzMyMjU="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="irTaxi, irEnBus, irEnMoto, irCaminando" type="Boolean" array="False" size=""/>
-            <assign variable="irTaxi" expression="true"/>
-            <assign variable="irEnBus" expression="true"/>
-            <assign variable="irEnMoto" expression="true"/>
-            <assign variable="irCaminando" expression="true"/>
+            <assign variable="irTaxi" expression="false"/>
+            <assign variable="irEnBus" expression="false"/>
+            <assign variable="irEnMoto" expression="false"/>
+            <assign variable="irCaminando" expression="false"/>
             <if expression="irTaxi or irEnBus or irEnMoto or irCaminando">
                 <then>
                     <output expression="&quot;Okey al ara voy perri&quot;" newline="True"/>

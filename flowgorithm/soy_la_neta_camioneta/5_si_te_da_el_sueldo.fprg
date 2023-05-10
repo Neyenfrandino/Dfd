@@ -4,17 +4,17 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="neyen"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-05-08 04:02:05 p.&#160;m."/>
+        <attribute name="saved" value="2023-05-08 04:13:35 p.&#160;m."/>
         <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA0OjI0OjA4IHAuwqBtLjszMTE2"/>
-        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA4OzA0OjAyOjA1IHAuwqBtLjs1OzMyMjI="/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA4OzA0OjEzOjM1IHAuwqBtLjs2OzMyMjg="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="gastable, SueldoGastado, sueldoTotal" type="Real" array="False" size=""/>
-            <assign variable="sueldoTotal" expression="1000000"/>
-            <assign variable="gastable" expression="1000000*0.75"/>
-            <assign variable="SueldoGastado" expression="750000"/>
+            <assign variable="sueldoTotal" expression="100000"/>
+            <assign variable="gastable" expression="100000*0.75"/>
+            <assign variable="SueldoGastado" expression="55000"/>
             <if expression="SueldoGastado &lt;= gastable">
                 <then>
                     <output expression="&quot;Ya te estan dando las cuenta&quot;" newline="True"/>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="neyen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-07 03:56:41 p.&#160;m."/>
+        <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzAzOjQ5OjU2IHAuwqBtLjszMTI1"/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzAzOjU2OjQxIHAuwqBtLjsyOzMyMjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="alfajoresNegros, alfajoresBlancos, totalAlfajores" type="Integer" array="False" size=""/>
+            <assign variable="alfajoresNegros" expression="6"/>
+            <assign variable="alfajoresBlancos" expression="alfajoresNegros / 2"/>
+            <assign variable="totalAlfajores" expression="alfajoresNegros + alfajoresBlancos"/>
+            <output expression="&quot;Carlos tiene en total &quot;&amp; totalAlfajores&amp; &quot; alfajores&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

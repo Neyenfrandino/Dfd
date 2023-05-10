@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="neyen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-08 04:02:05 p.&#160;m."/>
+        <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA0OjI0OjA4IHAuwqBtLjszMTE2"/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA4OzA0OjAyOjA1IHAuwqBtLjs1OzMyMjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="gastable, SueldoGastado, sueldoTotal" type="Real" array="False" size=""/>
+            <assign variable="sueldoTotal" expression="1000000"/>
+            <assign variable="gastable" expression="1000000*0.75"/>
+            <assign variable="SueldoGastado" expression="750000"/>
+            <if expression="SueldoGastado &lt;= gastable">
+                <then>
+                    <output expression="&quot;Ya te estan dando las cuenta&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ya no te da el sueldo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

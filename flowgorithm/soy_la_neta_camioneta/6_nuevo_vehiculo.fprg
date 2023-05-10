@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="neyen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-08 04:04:03 p.&#160;m."/>
+        <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA3OzA1OjQxOjU3IHAuwqBtLjszMTIw"/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA4OzA0OjA0OjAzIHAuwqBtLjs0OzMyMjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vehiculoNuevo, vehiculoActual" type="Integer" array="False" size=""/>
+            <assign variable="vehiculoNuevo" expression="7"/>
+            <assign variable="vehiculoActual" expression="5"/>
+            <if expression="vehiculoNuevo &gt;= vehiculoActual">
+                <then>
+                    <output expression="&quot;Se podra comprar el nuevo vehiculo &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Paila, por ahora no se lo puede comprar &quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

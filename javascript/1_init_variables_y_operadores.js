@@ -37,14 +37,14 @@ let suma2 = numero1 + numero2 + numero3 + numero4 + numero5;
 
 let nombre = 'Neyén';
 let apellido = 'Frandino';
-let suma3 = nombre + apellido;
+let suma3 = nombre + apellido;  // concatenación
 console.log(suma3);
 
 
 let numero = 7;
 let cadena = 'Soy una cadena';
 let resultado = numero + cadena;
-console.log(resultado);
+console.log(resultado);  // concatenación también
 
 
 // Nota: en el operador suma, todas las variables deben ser numero para que se haga una operación aritmética.

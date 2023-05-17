@@ -4,58 +4,67 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="neyen"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-05-06 08:03:49 p.&#160;m."/>
+        <attribute name="saved" value="2023-05-08 08:14:53 p.&#160;m."/>
         <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA2OzA3OjIwOjQyIHAuwqBtLjszMTEy"/>
-        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA2OzA4OjAzOjQ5IHAuwqBtLjsxMzszMjgw"/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA4OzA4OjE0OjUzIHAuwqBtLjsxOTszMjg1"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="llaves, puerta, asiento, nafta, marcha" type="Boolean" array="False" size=""/>
-            <assign variable="llaves" expression="true"/>
-            <assign variable="puerta" expression="true"/>
-            <assign variable="asiento" expression="true"/>
-            <assign variable="nafta" expression="true"/>
-            <assign variable="marcha" expression="true"/>
-            <if expression="llaves = true">
+            <declare name="tengoLlaves, puertaAbierta, asientoEnSuLugar, cambioEnNeutro, carroEncendio, portonAbierto" type="Boolean" array="False" size=""/>
+            <assign variable="tengoLlaves" expression="true"/>
+            <assign variable="puertaAbierta" expression="true"/>
+            <if expression="tengoLlaves = true">
                 <then>
-                    <output expression="&quot;Ve hasta el carro&quot;" newline="True"/>
-                    <if expression="puerta = false">
+                    <output expression="&quot;Listo ahora puedes ir hasta el carro&quot;" newline="True"/>
+                    <if expression="puertaAbierta = true">
                         <then>
-                            <output expression="&quot;Abre la puerta&quot;" newline="True"/>
-                        </then>
-                        <else>
-                            <output expression="&quot;Subase al carro&quot;" newline="True"/>
-                            <if expression="asiento = true">
+                            <output expression="&quot;Puedes subirte&quot;" newline="True"/>
+                            <assign variable="asientoEnSuLugar" expression="true"/>
+                            <if expression="asientoEnSuLugar = true">
                                 <then>
-                                    <output expression="&quot;Dele contacto al auto&quot;" newline="True"/>
-                                    <if expression="nafta = false">
+                                    <assign variable="cambioEnNeutro" expression="true"/>
+                                    <if expression="cambioEnNeutro = true">
                                         <then>
-                                            <output expression="&quot;Lo primero que tiene que hacer antes de ir a donde tenga que ir, es pasar por una autobomba y cargar nafta&quot;" newline="True"/>
-                                        </then>
-                                        <else>
-                                            <if expression="marcha = false">
+                                            <output expression="&quot; Listo puedes poner la llave en el tambor de encendido &quot;" newline="True"/>
+                                            <assign variable="carroEncendio" expression="true"/>
+                                            <if expression="carroEncendio = true">
                                                 <then>
-                                                    <output expression="&quot;Prende el auto&quot;" newline="True"/>
+                                                    <assign variable="portonAbierto" expression="true"/>
+                                                    <if expression="portonAbierto">
+                                                        <then>
+                                                            <output expression="&quot; Sacar el carro de la cochera y cerrar el porton &quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <output expression="&quot; !! Abre el porton con el control remoto que esta dentro del auto &#161;&#161; &quot;" newline="True"/>
+                                                        </else>
+                                                    </if>
                                                 </then>
                                                 <else>
-                                                    <output expression="&quot;Pon la marcha en neutro&quot;" newline="True"/>
+                                                    <output expression="&quot; !! El carro no prendio, llevelo al mecanico &#161;&#161; &quot;" newline="True"/>
                                                 </else>
                                             </if>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot; !!Pon el cambio en la posicion neutra&#161;&#161; &quot;" newline="True"/>
                                         </else>
                                     </if>
                                 </then>
                                 <else>
-                                    <output expression="&quot;acomoda el asiento woman o man&quot;" newline="True"/>
+                                    <output expression="&quot;!! Acomoda el asiento &#161;&#161; &quot;" newline="True"/>
                                 </else>
                             </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;!! Abre la puerta de tu vehiculo &#161;&#161;&quot;" newline="True"/>
                         </else>
                     </if>
                 </then>
                 <else>
-                    <output expression="&quot;Pide las llaves, o ve a bucarlas, dependiendo del apuro que tengas&quot;" newline="True"/>
+                    <output expression="&quot;!! Ve a buscar las llaves &#161;&#161;&quot;" newline="True"/>
                 </else>
             </if>
+            <output expression="&quot; Que tengas una buena  jornada &quot;" newline="True"/>
         </body>
     </function>
 </flowgorithm>

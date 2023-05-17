@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="neyen"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-08 06:08:36 p.&#160;m."/>
+        <attribute name="created" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA4OzA0OjE5OjM4IHAuwqBtLjszMTI0"/>
+        <attribute name="edited" value="bmV5ZW47TkVZRU5GUkFORElOTzsyMDIzLTA1LTA4OzA2OjA4OjM2IHAuwqBtLjsxOzMyMzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Dame un numero y te dire si es primo&quot;" newline="True"/>
+            <declare name="usuarioNumero, modulo" type="Integer" array="False" size=""/>
+            <declare name="cicloFor, contador" type="Integer" array="False" size=""/>
+            <assign variable="contador" expression="0"/>
+            <input variable="usuarioNumero"/>
+            <if expression="usuarioNumero &gt;= 0">
+                <then>
+                    <for variable="cicloFor" start="1" end="usuarioNumero" direction="inc" step="1">
+                        <if expression="usuarioNumero mod cicloFor = 0">
+                            <then>
+                                <assign variable="contador" expression="contador + 1"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </for>
+                    <if expression="contador = 2">
+                        <then>
+                            <output expression="usuarioNumero &amp; &quot; Es primo &quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="usuarioNumero &amp; &quot; No es primo&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Tu numero es menor a 0 , y los numeros negativos no son primos&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

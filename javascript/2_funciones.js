@@ -88,16 +88,14 @@ console.log(total);
 
 function tickets(pereiraCali, caliIpiales, ipialesCali, caliPereira, porcentaje) {
    let suma = (pereiraCali + caliIpiales + ipialesCali + caliPereira);
-    let porcentajes = (suma / 100 ) * porcentaje;
-    console.log('el total de gastos en tiquetes fue ' + suma + 
-                ' y el ' + porcentaje + ' porciento del gastos fue de ' + porcentajes);
-     return porcentajes ;
+    let valor = (suma / 100 ) * porcentaje;
+    /*console.log('el total de gastos en tiquetes fue ' + suma + 
+                ' y el ' + porcentaje + ' porciento del gastos fue de ' + porcentajes);*/
+     return valor;
 }
-
-let resultado = tickets(37, 110, 80, 50, 30) 
-
-
-
+let porcentaje = 30;
+let resultado = tickets(37, 110, 80, 50, porcentaje)
+console.log('El ' + porcentaje + '% del gasto total de los tikecks fue de ' + resultado);
 
 
 
@@ -105,17 +103,69 @@ let resultado = tickets(37, 110, 80, 50, 30)
 
 
 
-function publicoEnElEstadio(totalPublico){
-    let tribunasTrasarcos = (totalPublico / 100) * 15 ;
-    let porcentsur = (tribunasTrasarcos / 100) * 15;
+
+function publicoEnElEstadio(capacidadEstadio){
+    let tribunasTrasarcos = (capacidadEstadio / 100) * 15 ;
+    let tribunaSur = (tribunasTrasarcos / 100) * 15;
     let tribunaNorte = tribunasTrasarcos / 3;
-    let tribunasLaterales = (totalPublico / 100) * 35;
+    let tribunasLaterales = (capacidadEstadio / 100) * 35;
     let tribunaOriente = (tribunasLaterales / 100) * 70 ;
     let tribunaOccidente = (tribunasLaterales / 100) * 98 ;
-    console.log (porcentsur + ' fuerona a la tribuna sur, a la tribuna norte ' + tribunaNorte + 
-    ', a la tribuna oriente fueron ' + tribunaOriente + ' y en la occidente fueron ' + tribunaOccidente )
+    let totalAsistencias = tribunaSur + tribunaNorte + tribunaOriente + tribunaOccidente;
+    /*console.log ('La capacidad del estadio es de ' + capacidadEstadio + ' a la tribuna sur asistieron ' + 
+        tribunaSur + ', a la tribuna norte asistieron ' + tribunaNorte + ', a la tribuna oriental asistieron '
+         + tribunaOriente + ' y a la tribuna occidental asistieron ' + tribunaOccidente + ' y el total de asistencias fue de ' + totalAsistencias)*/
+    totalAsistencias = parseInt(totalAsistencias);
+    return totalAsistencias;
+
+    //return parseInt(totalAsistencias); 
 }
 let Estadio = publicoEnElEstadio(87000)
+console.log(Estadio)
  
 
- //(sur, norte, oriente, occidente)
+
+// -----
+
+
+
+function obtenerPorcentaje(numero, divisor, factor){
+    // let division = numero / divisor;
+    // let multiplicacion = division * factor;
+    // return parseInt(multiplicacion);
+
+    return numero / divisor * factor;
+}
+
+function publicoEnElEstadioCopia(capacidadEstadio){
+    let tribunasTrasarcos = obtenerPorcentaje(capacidadEstadio, 100, 15);
+    let tribunaSur = obtenerPorcentaje(tribunasTrasarcos, 100, 15);
+    let tribunaNorte = obtenerPorcentaje(tribunasTrasarcos, 3, 1);
+    let tribunasLaterales = obtenerPorcentaje (capacidadEstadio, 100,  35);
+    let tribunaOriente =obtenerPorcentaje (tribunasLaterales, 100, 70) ;
+    let tribunaOccidente = obtenerPorcentaje(tribunasLaterales ,100, 98);
+    let totalAsistencias = tribunaSur + tribunaNorte + tribunaOriente + tribunaOccidente;
+    /*console.log ('La capacidad del estadio es de ' + capacidadEstadio + ' a la tribuna sur asistieron ' + 
+        tribunaSur + ', a la tribuna norte asistieron ' + tribunaNorte + ', a la tribuna oriental asistieron '
+         + tribunaOriente + ' y a la tribuna occidental asistieron ' + tribunaOccidente + ' y el total de asistencias fue de ' + totalAsistencias)*/
+    totalAsistencias = parseInt(totalAsistencias);
+    return totalAsistencias;
+
+    //return parseInt(totalAsistencias); 
+}
+let Estadio = publicoEnElEstadioCopia(87000)
+console.log(Estadio)
+
+
+
+
+
+
+let cualquiera = 7.5
+
+parseInt(cualquiera) //para sacar la parte entera 
+7
+Math.ceil(cualquiera) //numero entero haciua arriba 
+8
+Math.floor(cualquiera) //numeor entero hacia abajo 
+7

@@ -34,6 +34,9 @@ function imprimirMensaje() {
 }
 
 function imprimirBienvenida (nombreP){
-    let nombreP = "Liliana";
     console.log ("Bienvenda", nombreP)
 } 
+
+imprimirMensaje ()
+
+imprimirBienvenida ('juan')
